@@ -6,7 +6,6 @@
     owner: root
     group: root
     mode: 0775
-    recurse: true
 
 - name: Create a self-signed certificate
   command: "openssl req -newkey rsa:4096 \
