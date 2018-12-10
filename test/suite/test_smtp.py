@@ -5,8 +5,7 @@ import pytest
 import ssl
 
 import tools
-
-# Helpers
+from tools import server_address
 
 
 @pytest.fixture(scope="session")

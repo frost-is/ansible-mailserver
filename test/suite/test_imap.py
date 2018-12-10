@@ -4,9 +4,9 @@ import pytest
 import uuid
 
 import tools
+from tools import server_address
 
 
-# TODO(shaka) put this in a file shared between tests
 @pytest.fixture(scope="session")
 def server(server_address):
     """Add fixtures into the database before teesting"""
